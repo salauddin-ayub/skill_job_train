@@ -10,3 +10,4 @@ for i in t:
 
 print(t.index(20))
 print(t.count(80))    
+
