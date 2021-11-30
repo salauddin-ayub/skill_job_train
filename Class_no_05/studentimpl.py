@@ -18,8 +18,8 @@ class StudentImpl(Student):
     def setDept(self, dept):
         self.dept = dept                
 
-# Student Implementation class object 
+ #Student Implementation class object 
 
-student = StudentImpl("Tarek", "IT")   
-print(student.name, student.dept)
-print(student.getName())     
+#student = StudentImpl("Tarek", "IT")   
+#print(student.name, student.dept)
+#print(student.getName())     
