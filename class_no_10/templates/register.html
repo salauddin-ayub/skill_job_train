@@ -37,7 +37,9 @@
 
             <!-- Submit button -->
             <button type="submit" value="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
-  
+            {% for msg in messages %}
+            <p style="color: red">{{ msg }}</p>
+            {% endfor %}
             <div class="divider d-flex align-items-center my-4">
               <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
             </div>
